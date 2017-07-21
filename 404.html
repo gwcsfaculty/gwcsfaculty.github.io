@@ -1,11 +1,18 @@
-<script type = "text/javascript">
-<!--
-function checkAnswers()
-{
-    var myQuiz = document.getElementById( "~zhen" );
-    if ( myQuiz.elements[ 1 ] .checked)
-        window.location = "http://testcsfaculty.seas.gwu.edu/zhen";
-    else
-        window.location = "http://testcsfaculty.seas.gwu.edu/timwood";
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+window.onload = function () {
+    function websiteBeoordelen () {
+        var name = document.getElementById("zhen").value;
+        if (code == "~zhen") {
+                window.location.href = "http://testcsfaculty.seas.gwu.edu/zhen";
+        }
+        else {
+            document.write("The code is wrong, try again!");
+        }   
+    }
+
 };
 </script>
+</head>
+</html>
