@@ -1,19 +1,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <script type="text/javascript">
-      
-      function UrlExists(url) {
-         var http = new XMLHttpRequest();
-         http.open('HEAD', url, false);
-         http.send();
-         if (http.status = 404){
-            window.location.replace ( 'http://testcsfaculty.seas.gwu.edu');
-         }
-      }
-      
+     
       function checkname(){
          window.location.href = window.location.href.replace ('~', '');
-         UrlExists(window.location.href.replace ('~', ''));
       }
       
    </script>
